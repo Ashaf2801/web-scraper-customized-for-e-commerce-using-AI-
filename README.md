@@ -73,7 +73,8 @@ Scrape the page with Selenium or Requests
 Clean and parse text with BeautifulSoup
 Structure extracted data using LLM (if available) or regex fallback
 Save results into a JSON file
-📊 Example Output
+Example Output
+```
 {
   "product_name": "Apple iPhone 14 Pro Max",
   "price": "$1099.00",
@@ -104,3 +105,4 @@ Save results into a JSON file
   "scraped_at": "2025-09-06T18:45:00Z",
   "extraction_method": "llm_analysis"
 }
+```
